@@ -1,0 +1,60 @@
+.custom-input {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.custom-input__field {
+  margin: 0;
+  outline: none;
+  border: none;
+  font-family: inherit;
+  padding: 0 32px 12px 0;
+  font-size: 18px;
+  line-height: 1.2;
+  border-bottom: 1px solid #cacaca;
+}
+
+.custom-input__field::placeholder {
+  color: #9b9b9b;
+}
+
+.custom-input__field[type="date"] {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  cursor: pointer;
+}
+
+.custom-input__field[type="date"]::-webkit-calendar-picker-indicator {
+  position: absolute;
+  opacity: 0;
+  width: 100%;
+  cursor: pointer;
+}
+
+.custom-input__field:focus {
+  border-bottom: 1px solid #1919ef;
+}
+
+.custom-input__label {
+  position: absolute;
+  top: -20px;
+  left: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 120%;
+  color: #1919ef;
+  user-select: none;
+}
+
+.custom-input__icon {
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  transform: translateY(-50%);
+  pointer-events: none;
+  background-color: #fff;
+}

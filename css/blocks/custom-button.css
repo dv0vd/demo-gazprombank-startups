@@ -1,0 +1,23 @@
+.custom-button {
+  padding: 40px 0;
+  width: 100%;
+  text-align: center;
+}
+
+.custom-button__field {
+  width: 166px;
+  padding: 11px 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 125%;
+  color: rgba(25, 25, 239, 0.4);
+  background: none;
+  border: solid 1px #1919ef66;
+  border-radius: 60px;
+  cursor: pointer;
+}
+
+.custom-button__field:focus {
+  border-color: #1919ef;
+}

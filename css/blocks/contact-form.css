@@ -1,0 +1,54 @@
+.contact-form__group {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  column-gap: 80px;
+  row-gap: 60px;
+  margin: 0 0 40px 0;
+  padding: 0;
+  border: none;
+}
+
+.contact-form__group--agreement {
+  padding: 20px 0 0 0;
+}
+
+.contact-form__group:last-child {
+  margin: 0;
+}
+
+.contact-form__group-name {
+  margin: 0 0 60px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 120%;
+}
+
+.contact-form__group-name--checkbox-list {
+  margin: 0 0 30px 0;
+}
+
+.contact-form__group-name--radio-list {
+  margin: 0 0 25px 0;
+}
+
+.contact-form__inner {
+  width: 50%;
+}
+
+.contact-form__wrapper {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: space-between;
+  row-gap: 55px;
+}
+
+.contact-form__wrapper--checkbox-list {
+  row-gap: 28px;
+}
+
+.contact-form__agreement-link {
+  text-decoration: underline;
+}
